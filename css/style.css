@@ -455,6 +455,11 @@ header .navbar .cta-btn a:hover {
   left: -60px !important;
 }
 
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y !important;
+  touch-action: pan-y !important;
+}
+
 .owl-carousel.major-caousel .owl-nav .owl-next {
   right: -60px !important;
 }
