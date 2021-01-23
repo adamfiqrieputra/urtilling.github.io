@@ -264,6 +264,11 @@ header .navbar .cta-btn a:hover {
   opacity: .4;
 }
 
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y !important;
+    touch-action: pan-y !important;
+}
+
 .owl-carousel .owl-item.active {
   opacity: 1;
 }
@@ -367,7 +372,14 @@ header .navbar .cta-btn a:hover {
   .owl-carousel.home-slider .slider-item .slider-text h1 {
     font-size: 40px;
   }
+
+  .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y !important;
+    touch-action: pan-y !important;
 }
+}
+
+
 
 .owl-carousel.home-slider .slider-item .slider-text p {
   font-size: 20px;
@@ -454,8 +466,6 @@ header .navbar .cta-btn a:hover {
 .owl-carousel.major-caousel .owl-nav .owl-prev {
   left: -60px !important;
 }
-
-
 
 .owl-carousel.major-caousel .owl-nav .owl-next {
   right: -60px !important;
